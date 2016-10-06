@@ -114,7 +114,11 @@
         "drupal/taxonomy_menu": "8.*",
         "drupal/better_exposed_filters": "8.*",
         "drupal/votingapi": "8.*",
-        "drupal/feeds": "8.*"
+        "drupal/feeds": "8.*",
+        "drupal/views_slideshow": "8.*",
+        "drupal/webform": "8.*",
+        "drupal/oauth": "8.*",
+        "drupal/job_scheduler": "8.*"
     },
     "require-dev": {
         "behat/mink": "~1.7",
