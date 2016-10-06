@@ -107,7 +107,14 @@
         "drupal/flood_unblock": "~1.0",
         "drupal/flood_controls": "*",
         "drupal/libraries": "~3.0",
-        "drupal/simplify": "^8.1"
+        "drupal/simplify": "^8.1",
+        "drupal/admin_menu": "8.*",
+        "drupal/rules": "8.*",
+        "drupal/google_analytics": "^8.2",
+        "drupal/taxonomy_menu": "8.*",
+        "drupal/better_exposed_filters": "8.*",
+        "drupal/votingapi": "8.*",
+        "drupal/feeds": "8.*"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -128,9 +135,7 @@
         "pdepend/pdepend" : "~2.2.4",
         "phpmd/phpmd" : "~2.4.2",
         "phploc/phploc": "~3.0",
-        "sebastian/phpcpd": "*",
-        "drupal/google_analytics": "^8.2",
-        "drupal/admin_menu": "^7.3@RC"
+        "sebastian/phpcpd": "*"
     },
     "conflict": {
         "drupal/drupal": "*"
