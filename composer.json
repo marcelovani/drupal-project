@@ -14,6 +14,10 @@
     "repositories": [
         {
             "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
             "url": "https://packagist.drupal-composer.org"
         },
         {
@@ -54,52 +58,65 @@
                     "reference": "origin/master"
                 }
             }
-        }
+        },
+        {
+              "type": "package",
+              "package": {
+                "name": "jackmoore/colorbox",
+                "version": "master",
+                "type": "drupal-library",
+                "dist": {
+                  "url": "https://github.com/jackmoore/colorbox/archive/master.zip",
+                  "type": "zip"
+                },
+                "require": {
+                  "composer/installers": "~1.0"
+                }
+              }
+            }
     ],
     "require": {
         "composer/installers": "^1.0.20",
         "drupal-composer/drupal-scaffold": "^2.0.1",
-        "cweagans/composer-patches": "~1.0",
+        "cweagans/composer-patches": "^1.5.0",
         "drupal/core": "~8.3",
         "drush/drush": "~8.0",
-        "drupal/console": "~1.0",
+        "drupal/console": "~0.10",
         "drupal/blazy": "8.1.x-dev",
-        "drupal/classy_paragraphs": "~1.0",
-        "drupal/coffee": "~1.0",
-        "drupal/colorbox": "~1.0",
-        "drupal/colorbox_load": "~1.0",
-        "drupal/config_update": "~1.1",
+        "drupal/classy_paragraphs": "8.1.x-dev",
+        "drupal/coffee": "8.1.x-dev",
+        "drupal/config_update": "8.1.1",
         "drupal/ctools": "8.3.x-dev",
-        "drupal/ds": "~2.5",
-        "drupal/entity_reference_revisions": "~1.0",
-        "drupal/features": "~3.0",
-        "drupal/field_group": "~1.0",
-        "drupal/fpa": "~2.0",
-        "drupal/linked_field": "1.x-dev",
-        "drupal/linkit": "~4.0",
-        "drupal/masquerade": "~1.0",
-        "drupal/ng_lightbox": "~1.0",
-        "drupal/paragraphs": "~1.0",
+        "drupal/ds": "8.2.x-dev",
+        "drupal/entity_reference_revisions": "8.1.x-dev",
+        "drupal/features": "8.3.x-dev",
+        "drupal/field_group": "8.1.x-dev",
+        "drupal/fpa": "8.2.x-dev",
+        "drupal/linked_field": "8.1.x-dev",
+        "drupal/linkit": "8.5.x-dev",
+        "drupal/masquerade": "8.2.x-dev",
+        "drupal/ng_lightbox": "8.1.x-dev",
+        "drupal/paragraphs": "8.1.x-dev",
         "drupal/slick": "8.1.x-dev",
         "drupal/slick_views": "8.1.x-dev",
-        "drupal/smart_trim": "~1.0",
-        "drupal/stage_file_proxy": "~1.0",
+        "drupal/smart_trim": "8.1.x-dev",
+        "drupal/stage_file_proxy": "8.1.x-dev",
         "drupal/token": "8.1.x-dev",
         "drupal/video_embed_field": "8.1.x-dev",
-        "drupal/config_tools": "~1.0",
-        "drupal/contact_block": "~1.2",
-        "drupal/redis": "~1.0",
+        "drupal/config_tools": "8.1.x-dev",
+        "drupal/contact_block": "8.1.x-dev",
+        "drupal/redis": "8.1.x-dev",
         "drupal/google_site_search": "*",
-        "drupal/easychart": "~3.3",
-        "drupal/rabbit_hole": "~1.0",
-        "drupal/twig_tweak": "~1.0",
-        "drupal/eu_cookie_compliance": "~1.0-beta7",
-        "drupal/contact_storage": "~1.0",
-        "drupal/backup_migrate": "~4.0.0-alpha1",
-        "drupal/readonlymode": "~1.0",
+        "drupal/easychart": "8.3.x-dev",
+        "drupal/rabbit_hole": "8.1.x-dev",
+        "drupal/twig_tweak": "8.1.x-dev",
+        "drupal/eu_cookie_compliance": "8.1.x-dev",
+        "drupal/contact_storage": "8.1.x-dev",
+        "drupal/backup_migrate": "8.4.x-dev",
+        "drupal/readonlymode": "8.1.x-dev",
         "drupal/entity_embed": "8.1.x-dev",
         "drupal/embed": "8.1.x-dev",
-        "drupal/flood_unblock": "~1.0",
+        "drupal/flood_unblock": "8.1.x-dev",
         "drupal/flood_controls": "*",
         "drupal/libraries": "8.3.x-dev",
         "drupal/simplify": "^8.1",
@@ -143,7 +160,9 @@
         "drupal/diff": "8.*",
         "drupal/smtp": "8.*",
         "drupal/extlink": "8.*",
-        "drupal/layout_plugin": "8.1.x-dev"
+        "drupal/layout_plugin": "8.1.x-dev",
+        "drupal/colorbox": "~1.0",
+        "drupal/colorbox_load": "~1.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -153,7 +172,7 @@
         "mikey179/vfsStream": "~1.2",
         "phpunit/phpunit": "~4.8",
         "symfony/css-selector": "~2.8",
-        "drupal/twig_xdebug": "~1.0",
+        "drupal/twig_xdebug": "8.1.x-dev",
         "drupal/drupal-extension": "~3.0",
         "squizlabs/php_codesniffer": ">=2.5.1",
         "drupal/coder": "~8.0",
