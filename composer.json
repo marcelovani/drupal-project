@@ -81,7 +81,6 @@
         "cweagans/composer-patches": "^1.5.0",
         "drupal/core": "~8.3",
         "drush/drush": "~8.0",
-        "drupal/console": "~1.0",
         "drupal/blazy": "8.1.x-dev",
         "drupal/classy_paragraphs": "8.1.x-dev",
         "drupal/coffee": "8.1.x-dev",
@@ -162,7 +161,9 @@
         "drupal/extlink": "8.*",
         "drupal/layout_plugin": "8.1.x-dev",
         "drupal/colorbox": "~1.0",
-        "drupal/colorbox_load": "~1.0"
+        "drupal/colorbox_load": "~1.0",
+        "symfony/filesystem": "~2.8",
+        "drupal/console": "~1.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
