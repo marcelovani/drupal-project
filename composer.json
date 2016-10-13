@@ -163,7 +163,6 @@
         "drupal/colorbox": "~1.0",
         "drupal/colorbox_load": "~1.0",
         "symfony/filesystem": "~2.8",
-        "drupal/console": "~1.0",
         "drupal/panels": "8.*",
         "drupal/socbutt": "8.*",
         "drupal/search_api": "8.*",
@@ -176,7 +175,6 @@
         "drupal/memcache": "8.*",
         "drupal/commerce": "8.*",
         "drupal/youtrack": "8.*",
-        "drupal/contact_storage": "8.*",
         "drupal/simple_adsense": "8.*",
         "drupal/multiblock": "8.*",
         "drupal/nodeorder": "8.*",
@@ -241,7 +239,9 @@
         "drupal/footable": "8.*",
         "drupal/inline_entity_form": "8.*",
         "drupal/role_delegation": "8.*",
-        "drupal/workflow": "8.*"
+        "drupal/workflow": "8.*",
+        "drupal/console": "1.0.0-beta5"
+
     },
     "require-dev": {
         "behat/mink": "~1.7",
