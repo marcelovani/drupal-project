@@ -187,7 +187,6 @@
         "drupal/search_api_autocomplete": "8.*",
         "drupal/stickynav": "8.*",
         "drupal/cacheflush": "8.*",
-        "drupal/redirect": "8.*",
         "drupal/drd": "8.*",
         "drupal/encrypt": "8.*",
         "drupal/email_registration": "8.*",
@@ -221,7 +220,6 @@
         "drupal/juicebox": "8.*",
         "drupal/profile2": "8.*",
         "drupal/openid_connect": "8.*",
-        "drupal/smtp": "8.*",
         "drupal/exclude_node_title": "8.*",
         "drupal/hook_post_action": "8.*",
         "drupal/workbench": "8.*",
@@ -236,8 +234,10 @@
         "drupal/inline_entity_form": "8.*",
         "drupal/role_delegation": "8.*",
         "drupal/workflow": "8.*",
-        "drupal/console": "1.0.0-beta5"
-
+        "drupal/console": "1.0.0-beta5",
+        "drupal/boxout": "8.*",
+        "drupal/sharerich": "8.*",
+        "drupal/captcha_keypad": "8.*"
     },
     "require-dev": {
         "behat/mink": "~1.7",
