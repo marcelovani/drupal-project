@@ -293,12 +293,11 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
-        }
-    },
-    "patches": {
-				    "drupal/core": {
-					      "Allow installing new sites with exported configuration": "https://www.drupal.org/files/issues/1613424-2-71.patch"
-				    },
+        },
+        "patches": {
+            "drupal/core": {
+                "Allow installing new sites with exported configuration": "https://www.drupal.org/files/issues/1613424-2-71.patch"
+            },
             "drupal/config_tools": {
                 "Error on directory definition https://www.drupal.org/node/2499831": "https://www.drupal.org/files/issues/error_on_directory_definition-2499831-6.patch"
             },
@@ -307,7 +306,8 @@
             },
             "drupal/google_site_search": {
                 "Fixed routing and paging": "scripts/patches/google_site_search_290716.patch"
-          }
+            }
+        }
     },
     "replace": {
         "drupal/drupal": "*"
