@@ -303,9 +303,6 @@
             },
             "drupal/rabbit_hole": {
                 "TypeError when editing content type settings": "https://www.drupal.org/files/issues/typeerror-on-ct-settings-2780501-2.patch"
-            },
-            "drupal/google_site_search": {
-                "Fixed routing and paging": "scripts/patches/google_site_search_290716.patch"
             }
         }
     },
