@@ -235,9 +235,9 @@
         "drupal/role_delegation": "8.*",
         "drupal/workflow": "8.*",
         "drupal/console": "1.0.0-beta5",
-        "drupal/boxout": "8.*",
-        "drupal/sharerich": "8.*",
-        "drupal/captcha_keypad": "8.*"
+        "drupal/boxout": "dev-8.x-1.x",
+        "drupal/sharerich": "dev-8.x-1.x",
+        "drupal/captcha_keypad": "dev-8.x-1.x"
     },
     "require-dev": {
         "behat/mink": "~1.7",
