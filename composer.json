@@ -115,7 +115,7 @@
         "drupal/linkit": "8.5.x-dev",
         "drupal/masquerade": "8.2.x-dev",
         "drupal/ng_lightbox": "8.1.x-dev",
-        "drupal/paragraphs": "8.1.x-dev",
+        "drupal/paragraphs": "1.x-dev",
         "drupal/slick": "8.1.x-dev",
         "drupal/slick_views": "8.1.x-dev",
         "drupal/smart_trim": "8.1.x-dev",
