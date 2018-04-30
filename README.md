@@ -2,13 +2,14 @@
  
 > Optimized to use with Docker and DrupalConsole.
 
-### Clone repository
+### Creating a Drupal site from project
 ```
-git clone https://github.com/weknowinc/drupal-project
+composer create-project weknowinc/drupal-project /some-dir --stability dev --prefer-dist --no-interaction
 ```
 
 ### Copy and rename the `.env.dist` file
 ```
+cd /some-dir
 cp .env.dist .env
 ```
 
